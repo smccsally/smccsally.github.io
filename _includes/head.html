@@ -1,3 +1,4 @@
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -5,10 +6,25 @@
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="apple-mobile-web-app-title" content="{{ site.title }}">
+  
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/dist/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   <link rel="stylesheet" type="text/css" href="http://ws1.postescanada-canadapost.ca/css/addresscomplete-2.30.min.css?key=hn76-nn84-kj68-zk51" />
-  <script type="text/javascript" src="http://ws1.postescanada-canadapost.ca/js/addresscomplete-2.30.min.js?key=hn76-nn84-kj68-zk51"></script>
+  <link rel="icon" href="/dist/assets/img/favicon.png" type="image/png" />
+  <link rel="apple-touch-icon" href="/dist/assets/img/favicon.png">
+  <link rel="canonical" href="http://smccsally.github.io/">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <script src="http://ws1.postescanada-canadapost.ca/js/addresscomplete-2.30.min.js?key=hn76-nn84-kj68-zk51"></script>
+   <script src="{{ "/dist/js/jquery-3.2.1.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
+   
+    <script src="{{ "/dist/js/fontawesome-all.min.js" | prepend: site.baseurl }}"></script>
+    
+    
+    
+
 </head>
