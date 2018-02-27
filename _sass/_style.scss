@@ -1370,14 +1370,15 @@ code.output {
   span{
     float:left;
     font-size:1.5em;
-    margin-bottom:5%;
+    margin-bottom:20px;
   }
   img{
-  max-width:130px;
+  max-width:120px;
   max-height:70px;
   margin-right:4%;
   width:auto;
   height:auto;
+  float:left;
   }
 }
 
@@ -1555,10 +1556,10 @@ code.output {
 
 /*grid*/
 #tumblr,#app{
-  height:80%;
-  color:#000;
+  height:90%;
+  color:#fff;
   span{
-    background: rgba(255,255,255,.7);
+    background: rgba(0,0,0,.7);
     height: auto;
     width: 100%;
     display: inline-block;
@@ -1638,6 +1639,7 @@ code.output {
     margin-top: -230px;
     font-size:18px;
     text-align:center;
+    color:#fff;
 }
 .browser-mockup > * {
   display: block;
