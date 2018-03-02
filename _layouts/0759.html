@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <style>
+    #load{
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:9999;
+    background:url("/dist/assets/img/Pacman.gif") no-repeat center center #222233;
+  }
+  .overlayTop{
+    opacity:0;
+    z-index:-99;
+  }
+  </style>
+  <script type="text/javascript">
+  
+    document.onreadystatechange = function () {
+      var state = document.readyState;
+      if (state == 'interactive') {
+           document.getElementById('').style.visibility="hidden";
+           
+      } else if (state == 'complete') {
+          setTimeout(function(){
+             document.getElementById('interactive');
+             document.getElementById('load').style.visibility="hidden";
+             document.getElementById('contents').style.visibility="visible";
+               
+          },1000);
+      }
+    }
+    
+  </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    <link rel="stylesheet" type="text/css" href="/dist/css/0759main.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" /><link rel="shortcut icon" href="http://0759.com/cecweb/favicon.ico" type="image/x-icon" />
+    </head>
+  <body>
+    <div id="load"></div>
+    <div id="contents">
+       {% include 0759header.html %}
+            {{ content }}
+      {% include 0759footer.html %}
+    </div>
+  </body>
+  
+</html>

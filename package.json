@@ -4,6 +4,7 @@
   "main": "index.js",
   "dependencies": {
     "gulp": "^3.9.1",
+    "gulp-cache-refresh": "^1.1.0",
     "gulp-htmlmin": "^4.0.0"
   },
   "devDependencies": {
@@ -19,6 +20,7 @@
     "gulp-cssnano": "^2.1.2",
     "gulp-htmllint": "0.0.15",
     "gulp-if": "^2.0.2",
+    "gulp-image-resize": "^0.13.0",
     "gulp-imagemin": "^4.1.0",
     "gulp-minify-html": "^1.0.6",
     "gulp-sass": "^3.1.0",
@@ -32,6 +34,7 @@
     "imagemin-pngquant": "^5.0.1",
     "imagemin-zopfli": "^5.1.0",
     "pump": "^3.0.0",
+    "purify-css": "^1.2.5",
     "run-sequence": "^2.2.1",
     "stylelint": "^9.1.1",
     "stylelint-find-rules": "^1.1.1"

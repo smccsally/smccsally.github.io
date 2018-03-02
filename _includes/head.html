@@ -7,24 +7,50 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="apple-mobile-web-app-title" content="{{ site.title }}">
+   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
-
-  <link rel="stylesheet" href="{{ "/dist/css/main.css" | prepend: site.baseurl }}">
+  
+  
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="stylesheet" type="text/css" href="http://ws1.postescanada-canadapost.ca/css/addresscomplete-2.30.min.css?key=hn76-nn84-kj68-zk51" />
+  
+  
+  <style>
+    #load{
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:9999;
+    background:url("/dist/assets/img/Pacman.gif") no-repeat center center #222233;
+  }
+  </style>
+  <script type="text/javascript">
+  
+    document.onreadystatechange = function () {
+      var state = document.readyState;
+      if (state == 'interactive') {
+           document.getElementById('contents').style.visibility="hidden";
+           
+      } else if (state == 'complete') {
+          setTimeout(function(){
+             document.getElementById('interactive');
+             document.getElementById('load').style.visibility="hidden";
+             document.getElementById('contents').style.visibility="visible";
+               
+          },1000);
+      }
+    }
+    
+  </script>
   <link rel="icon" href="/dist/assets/img/favicon.png" type="image/png" />
   <link rel="apple-touch-icon" href="/dist/assets/img/favicon.png">
-  <link rel="canonical" href="http://smccsally.github.io/">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="canonical" href="https://www.salichen.com/">
+ 
+  <link rel="stylesheet" href="{{ "dist/css/main.css" | prepend: site.baseurl }}" >
 
-  <script src="http://ws1.postescanada-canadapost.ca/js/addresscomplete-2.30.min.js?key=hn76-nn84-kj68-zk51"></script>
-   <script src="{{ "/dist/js/jquery-3.2.1.min.js" | prepend: site.baseurl }}"></script>
-  <script src="{{ "dist/js/main.js" | prepend: site.baseurl }}"></script>
-   
-    <script src="{{ "/dist/js/fontawesome-all.min.js" | prepend: site.baseurl }}"></script>
-    
-    
-    
-
+  <script async src="http://ws1.postescanada-canadapost.ca/js/addresscomplete-2.30.min.js?key=hn76-nn84-kj68-zk51"></script>
+  <script src="{{ "/dist/js/jquery-3.2.1.min.js" | prepend: site.baseurl }}"></script>
+  <script async src="{{ "/dist/js/fontawesome-all.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/dist/js/main.js" | prepend: site.baseurl }}"></script>
+ 
 </head>

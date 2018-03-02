@@ -37,8 +37,7 @@ exclude: [
           "gulpfile.js",
           "node_modules",
           "package.json"]
-plugins:
-  - jekyll-redirect-from
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -55,3 +54,4 @@ defaults:
       path: "assets/img"
     values:
       image: true
+      

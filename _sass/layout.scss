@@ -159,6 +159,15 @@
 }
 
 @include media-query($on-palm) {
+    .comparison-slider-wrapper .comparison-slider .divider:after, .comparison-slider-wrapper .comparison-slider .divider.draggable:after{
+        top:29.35%;
+    }
+    .featurein a {
+        width:90px;
+        img{
+        max-width:90px;
+    }
+    }
     #myModal img{
         margin-top:40px;
     }
@@ -192,7 +201,6 @@
     .introHome{
         #typedtext{
             min-width:300px;
-            float:left;
             font-size:1.3em;
             padding-top:2%;
         }

@@ -2,13 +2,15 @@
 <html lang="en-US">
   {% include head.html %}
   <body>
+     <div id="load"></div>
    {% include header.html %}
-    <div class="page-content">
+    <div class="page-content" id="contents">
       <div class="wrapper">
         {{ content }}
       </div>
     </div>
   {% include footer.html %}
+  <script src="{{ "/dist/js/scriptjs.js" | prepend: site.baseurl }}"></script>
   </body>
   
 </html>
