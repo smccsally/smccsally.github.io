@@ -32,7 +32,7 @@ permalink: /0759/contact
       <div id="body_right" style="BACKGROUND: url(/dist/assets/0759/img/us_bg.gif)">
          <br>
          <div class="locationBar">
-            <a id="link_Home" href="index.aspx?lang=cht">主頁</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;
+            <a id="link_Home" href="/0759/">主頁</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;
             <span id="l_ContactUs"> 聯絡我們</span>
          </div>
          <div class="title"><span id="l_MemberInfo">公司資料詳情</span>:</div>
@@ -53,7 +53,7 @@ permalink: /0759/contact
             <a id="group28"></a><br>
             <hr>
             <br>
-            <span class="contitle" style="padding-right:15px;">759阿信屋</span><a href="http://www.759store.com/shop.php?lang=chi" target="_blank"><img src="/dist/assets/0759/img/store_location_cht.gif" border="0"></a><br>
+            <span class="contitle" style="padding-right:15px;">759阿信屋</span><a href="#" target="_blank"><img src="/dist/assets/0759/img/store_location_cht.gif" border="0"></a><br>
             香港九龍觀塘巧明街110號興運工業大廈2樓<br>
             電話：(852) 3960 9300<br>
             電郵： fb@ceccoils.com<br>

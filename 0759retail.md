@@ -16,12 +16,12 @@ permalink: /0759/retail
          <table width="875" border="0" cellpadding="0" cellspacing="0" align="center">
             <tbody>
                <tr align="center">
-                  <td width="125"><a href="aboutus.php?lang=cht"><img src="/dist/assets/0759/img/index_aboutus.png" border="0"></a></td>
-                  <td width="125"><a href="promotion.php?lang=cht"><img src="/dist/assets/0759/img/index_promotion.png" border="0"></a></td>
-                  <td width="125"><a href="product.php?lang=cht"><img src="/dist/assets/0759/img/index_product.png" border="0"></a></td>
-                  <td width="125"><a href="video2.php?lang=cht"><img src="/dist/assets/0759/img/index_video.png" border="0"></a></td>
-                  <td width="125"><a href="shop.php?lang=cht"><img src="/dist/assets/0759/img/index_shop.png" border="0"></a></td>
-                  <td width="125"><a href="district.php?lang=cht"><img src="/dist/assets/0759/img/index_supply.png" border="0"></a></td>
+                  <td width="125"><a href="#"><img src="/dist/assets/0759/img/index_aboutus.png" border="0"></a></td>
+                  <td width="125"><a href="#"><img src="/dist/assets/0759/img/index_promotion.png" border="0"></a></td>
+                  <td width="125"><a href="#"><img src="/dist/assets/0759/img/index_product.png" border="0"></a></td>
+                  <td width="125"><a href="#"><img src="/dist/assets/0759/img/index_video.png" border="0"></a></td>
+                  <td width="125"><a href="#"><img src="/dist/assets/0759/img/index_shop.png" border="0"></a></td>
+                  <td width="125"><a href="#"><img src="/dist/assets/0759/img/index_supply.png" border="0"></a></td>
                   <td width="125"><a href="https://www.facebook.com/759StoreHK" target="_blank"><img src="/dist/assets/0759/img/index_fb.png" border="0"></a></td>
                </tr>
             </tbody>

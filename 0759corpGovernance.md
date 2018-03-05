@@ -12,21 +12,21 @@ permalink: /0759/corpGovernance
          <h2>企業管治</h2>
       </div>
       <ul class="leftMenu">
-         <li><a href="#top" onclick="showContent('aboutcec_content');">董事會</a></li>
-         <li><a href="http://www.0759.com/CECWEB/file/AuditCommittee-C-2016.pdf" target="_blank">審核委員會務</a></li>
-         <li><a href="http://www.0759.com/CECWEB/file/RemunerationCommittee-C-2012.pdf" target="_blank">薪酬委員會</a></li>
-         <li><a href="http://www.0759.com/CECWEB/file/NominationCommittee-C-2012.pdf" target="_blank">提名委員會</a></li>
-         <li><a href="http://www.0759.com/CECWEB/file/ProcedureForProposingDirectors-C-2012.pdf" target="_blank">提名董事人選之程序</a></li>
-         <li><a href="http://www.0759.com/CECWEB/file/ShareholdersCommunicationPolicy-C-2012.pdf" target="_blank">股東通訊政策</a></li>
-         <li><a href="#top" onclick="showContent('aboutcec_content1');">股東權利</a></li>
-         <li><a href="http://www.0759.com/CECWEB/file/MemorandumOfAssociationAndBye-laws-C-2012.pdf" target="_blank">組織章程大綱及公司細則</a></li>
+         <li><a href="#" onclick="showContent('aboutcec_content');">董事會</a></li>
+         <li><a href="#" target="_blank">審核委員會務</a></li>
+         <li><a href="#" target="_blank">薪酬委員會</a></li>
+         <li><a href="#" target="_blank">提名委員會</a></li>
+         <li><a href="#" target="_blank">提名董事人選之程序</a></li>
+         <li><a href="#" target="_blank">股東通訊政策</a></li>
+         <li><a href="#" onclick="showContent('aboutcec_content1');">股東權利</a></li>
+         <li><a href="#" target="_blank">組織章程大綱及公司細則</a></li>
       </ul>
    </div>
    <div class="rightContent">
       <div id="body_right">
          <br>
          <div class="locationBar">
-            <a id="link_Home" href="index.aspx?lang=cht">主頁</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;
+            <a id="link_Home" href="/0759/">主頁</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;
             <span id="l_ContactUs">企業管治</span>
          </div>
          <div id="aboutcec_content" class="toggle">
