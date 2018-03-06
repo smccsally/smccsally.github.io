@@ -1363,9 +1363,9 @@ code.output {
     font-size: 1rem;
     line-height: 1.636;
   }
-  >div{
+  div{
     text-align:left;
-    color:#ffffff!important;
+    color:#ffffff;
   }
   ul{
     list-style:disc;
@@ -1579,7 +1579,6 @@ code.output {
   color:#fff;
   span{
     background: rgba(0,0,0,.7);
-    height: auto;
     width: 100%;
     display: inline-block;
   }
@@ -2005,6 +2004,9 @@ $before :rgb(114,92,82);
         border-image: 14 repeating-linear-gradient(-45deg, rgba(255,0,0,.7) 0, rgba(255,0,0,.7) 1em, transparent 0, transparent 2em,
                       rgba(85,136,170,.7) 0, rgba(85,136,170,.7) 3em, transparent 0, transparent 4em);
         font: 1em Baskerville, Palatino, serif;
+        #thank-you-message{
+          color:#008000!important;
+        }
            .title{
              color:#4e4c4c;
              img{
