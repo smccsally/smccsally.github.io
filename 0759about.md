@@ -1,7 +1,7 @@
 --- 
 layout: 0759 
 title: 0759
-permalink: /0759/about
+permalink: /0759/about.html
 ---
 <div class="bannerWrap">
    <img src="img/aboutCEC_2.jpg">
