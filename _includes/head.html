@@ -14,15 +14,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="apple-mobile-web-app-title" content="{{ site.title }}">
-   <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta itemprop="description" name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <link rel="apple-touch-icon-precomposed" href="/dist/assets/img/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/dist/assets/img/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/dist/assets/img/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/dist/assets/img/apple-touch-icon-152x152.png">
   
-  
-  
-  <link rel="canonical" href="https://salichen.com">
+  <!--open graph-->
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:image" content="/dist/assets/img/favicon.png" />
+  <meta property="og:site_name" content="Sali Chen | Personal portfolio">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    
+  <!--twitter card-->
+  <meta name="twitter:card" content="/dist/assets/img/favicon.png"/>
+  <meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    
+  <link rel="canonical" href="{{ page.url | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="https://salichen.com/feed.xml">
-  
+    
   
   <style>
     #load{
