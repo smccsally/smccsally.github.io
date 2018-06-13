@@ -1203,11 +1203,24 @@ code.output {
   top:40%;
   width:94%;
   min-width:250px;
-  margin-left: -116px;
   background:rgba(34,34,51,.7);
 }
 
 }
+@media screen  (min-device-width: 1600px){
+    .slider{
+     .instruction{
+        margin-left:-127px;
+      }
+    }
+  }
+@media screen  (max-device-width: 1600px){
+    .slider{
+     .instruction{
+        margin-left:-83px;
+      }
+    }
+  }
 @media screen 
   and (min-device-width: 1000px) 
   and (max-device-width: 1200px){
