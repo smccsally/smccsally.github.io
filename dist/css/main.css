@@ -1934,8 +1934,8 @@ code.output {
 }
 
 #myModal img {
-    max-width: 650px;
-    width: auto
+    max-width: 280px;
+    width: auto;
 }
 
 .modal {
