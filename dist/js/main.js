@@ -5,11 +5,6 @@
   proof.style.width = "0px";
   proof.style.height = "0px";
 
-  function checkform() {
-   if (proof.innerHTML == "") {
-    return submitted = !0;
-   }
-  }
   for (var e = document.querySelectorAll(".post-list>li"), t = ["#222233", "#222233", "#222233", "#222233", "#222233", "#222233"], n = ["#fff"], o = document.querySelectorAll(".trigger>.page-link"), i = e.length, s = 0; s < i; s++) e[s].setAttribute("id", s + 1), e[s].style.background = t[s], e[s].style.color = n[0], o[s].setAttribute("href", "#" + (s + 1));
   var a, r = document.querySelectorAll("#typedtext")[0];
   e[0].style.minHeight = "550px", window.innerHeight > 700 && (r.style.lineHeight = "45px", r.style.height = "350px"), e[4].style.position = "relative";
