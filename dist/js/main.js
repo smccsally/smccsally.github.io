@@ -2,7 +2,8 @@
 
  document.addEventListener("DOMContentLoaded", function() {
   var proof = document.getElementById('proof');
-  proof.style.display = "none";
+  proof.style.width = "0px";
+  proof.style.height = "0px";
 
   function checkform() {
    if (proof.innerHTML == "") {
