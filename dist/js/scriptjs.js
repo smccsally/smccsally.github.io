@@ -89,7 +89,7 @@ function showSlides(e) {
 showSlides(slideIndex);
 
 function checkform() {
- if (proof.innerHTML == "") {
+ if (proof.value == null) {
   return submitted = !0;
  }
 }
