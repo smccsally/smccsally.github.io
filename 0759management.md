@@ -1,7 +1,7 @@
 --- 
 layout: 0759 
 title: 0759
-permalink: /0759/management.html
+[comment]:permalink: /0759/management.html
 ---
 <div class="bannerWrap">
    <img src="/dist/assets/0759/img/Management.jpg">
