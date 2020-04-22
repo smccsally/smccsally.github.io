@@ -1,7 +1,7 @@
 --- 
 layout: 0759 
 title: 0759
-permalink: /0759/corpGovernance.html
+[comment]:permalink: /0759/corpGovernance.html
 ---
 <div class="bannerWrap" id="top">
    <img src="/dist/assets/0759/img/CorpGovernance.jpg">
